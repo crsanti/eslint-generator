@@ -13,6 +13,12 @@
   ],
   "plugins": [
     "react-hot-loader/babel",
-    "babel-plugin-emotion"
+    [
+      "emotion",
+      {
+        "sourceMap": true,
+        "autoLabel": true
+      }
+    ]
   ]
 }
