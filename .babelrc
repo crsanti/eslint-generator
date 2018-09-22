@@ -1,0 +1,18 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "modules": false,
+        "loose": true,
+        "shippedProposals": true,
+        "debug": true,
+        "useBuiltIns": "usage"
+      }
+    ]
+  ],
+  "plugins": [
+    "react-hot-loader/babel",
+    "babel-plugin-emotion"
+  ]
+}
