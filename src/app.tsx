@@ -7,4 +7,4 @@ let App: React.StatelessComponent = () => (
 
 App = hot(module)(App);
 
-export { App }
+export { App };

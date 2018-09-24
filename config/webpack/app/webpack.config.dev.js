@@ -6,6 +6,7 @@ const helpers = require('../helpers');
 const DIST_DIR = helpers.resolveFromRootPath('dist');
 
 module.exports = merge(base, {
+  mode: 'development',
   devtool: 'inline-source-map',
   output: {
     path: DIST_DIR,
