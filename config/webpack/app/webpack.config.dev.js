@@ -1,7 +1,6 @@
 const webpack = require('webpack');
 const merge = require('webpack-merge');
 const base = require('./webpack.config.base');
-// const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const helpers = require('../helpers');
 
 const DIST_DIR = helpers.resolveFromRootPath('dist');
@@ -23,8 +22,5 @@ module.exports = merge(base, {
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NamedModulesPlugin(),
-    // new ExtractTextPlugin({
-    //   disable: true,
-    // }),
   ],
 });

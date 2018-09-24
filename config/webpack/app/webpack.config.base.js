@@ -1,8 +1,6 @@
 const merge = require('webpack-merge');
 const common = require('../webpack.config.common');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-// const ExtractTextPlugin = require('extract-text-webpack-plugin');
-// const autoprefixer = require('autoprefixer');
 const helpers = require('../helpers');
 
 module.exports = merge(common, {
@@ -34,41 +32,6 @@ module.exports = merge(common, {
           },
         ]
       },
-      // {
-      //   test: /\.css$/,
-      //   include: /node_modules/,
-      //   loader: ExtractTextPlugin.extract({
-      //     fallback: 'style-loader',
-      //     use: {
-      //       loader: 'css-loader',
-      //     },
-      //   }),
-      // },
-      // {
-      //   test: /\.scss$/,
-      //   loader: ExtractTextPlugin.extract({
-      //     fallback: 'style-loader',
-      //     use: [
-      //       {
-      //         loader: 'css-loader',
-      //       },
-      //       {
-      //         loader: 'postcss-loader',
-      //         options: {
-      //           ident: 'postcss',
-      //           sourceMap: true,
-      //           plugins: () => [autoprefixer]
-      //         },
-      //       },
-      //       {
-      //         loader: 'sass-loader',
-      //         options: {
-      //           sourceMap: true,
-      //         },
-      //       },
-      //     ],
-      //   }),
-      // },
     ],
   },
   plugins: [
