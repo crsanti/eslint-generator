@@ -6,10 +6,12 @@
         "modules": false,
         "loose": true,
         "shippedProposals": true,
-        "debug": true,
+        "debug": false,
         "useBuiltIns": "usage"
       }
-    ]
+    ],
+    "@babel/preset-react",
+    "@babel/preset-typescript"
   ],
   "plugins": [
     "react-hot-loader/babel",
@@ -18,6 +20,14 @@
       {
         "sourceMap": true,
         "autoLabel": true
+      }
+    ],
+    "@babel/proposal-class-properties",
+    "@babel/proposal-object-rest-spread",
+    [
+      "@babel/plugin-proposal-decorators",
+      {
+        "decoratorsBeforeExport": true
       }
     ]
   ]

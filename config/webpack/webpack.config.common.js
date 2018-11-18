@@ -1,7 +1,4 @@
-const urlLoaderOptions = (mimetype) => ({
-  limit: 1e4,
-  mimetype,
-});
+const urlLoaderOptions = (mimetype, limit = 1e4) => ({ limit, mimetype });
 
 module.exports = {
   resolve: {
@@ -11,11 +8,6 @@ module.exports = {
   },
   module: {
     rules: [
-      {
-        test: /\.tsx?$/,
-        enforce: 'pre',
-        loader: 'tslint-loader',
-      },
       {
         test: /\.woff2?(\?v=\d+\.\d+\.\d+)?$/,
         loader: 'url-loader',

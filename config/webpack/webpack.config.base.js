@@ -1,18 +1,15 @@
 const merge = require('webpack-merge');
-const common = require('../webpack.config.common');
+const common = require('./webpack.config.common');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const helpers = require('../helpers');
+const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
+const { resolveFromRootPath } = require('../helpers');
 
 module.exports = merge(common, {
-  context: helpers.resolveFromRootPath('src'),
+  context: resolveFromRootPath('src'),
   entry: {
     app: [
       '@babel/polyfill',
       './index.tsx',
-    ],
-    vendor: [
-      "react",
-      "react-dom",
     ],
   },
   module: {
@@ -26,10 +23,7 @@ module.exports = merge(common, {
             options: {
               cacheDirectory: true,
             },
-          },
-          {
-            loader: 'ts-loader',
-          },
+          }
         ]
       },
     ],
@@ -41,6 +35,13 @@ module.exports = merge(common, {
       hash: true,
       chunks: ['manifest', 'vendor', 'app'],
       chunksSortMode: 'manual',
+    }),
+    new ForkTsCheckerWebpackPlugin({
+      tsconfig: resolveFromRootPath('tsconfig.json'),
+      tslint: resolveFromRootPath('tslint.json'),
+      watch: resolveFromRootPath('src'),
+      async: false,
+      workers: ForkTsCheckerWebpackPlugin.TWO_CPUS_FREE,
     }),
   ],
   optimization: {
