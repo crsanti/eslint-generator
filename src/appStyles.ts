@@ -1,7 +1,6 @@
 import { css } from 'emotion';
 
-export const styles =
-	css`
+export const container = css`
 		display: flex;
 		flex-direction: row;
 	`;
