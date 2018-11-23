@@ -1,5 +1,6 @@
 linters:
-  tslint: {  }
+  tslint:
+    config: tslint.json
 files:
   ignore:
     - 'bower_components/*'
