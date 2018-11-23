@@ -1,8 +1,14 @@
 import * as React from 'react';
 import { hot } from 'react-hot-loader';
+import { MainComponent } from './components/main';
+import { SideBarComponent } from './components/sideBar';
+import * as styles from './appStyles';
 
 let App: React.StatelessComponent = () => (
-  <h1>It works!</h1>
+  <div className={styles.container}>
+    <SideBarComponent />
+    <MainComponent />
+  </div>
 );
 
 App = hot(module)(App);
