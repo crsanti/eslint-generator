@@ -1,4 +1,4 @@
 export interface Rules {
   id: number,
-  rule: string,
+  name: string,
 };

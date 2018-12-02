@@ -3,54 +3,54 @@ import { Rules } from './model';
 export const ruleList: Rules[] = [
   {
     id: 1,
-    rule: 'file-name-casing',
+    name: 'file-name-casing',
   },
   {
     id: 2,
-    rule: 'forin',
+    name: 'forin',
   },
   {
     id: 3,
-    rule: 'import-blacklist',
+    name: 'import-blacklist',
   },
   {
     id: 4,
-    rule: 'import-spacing',
+    name: 'import-spacing',
   },
   {
     id: 5,
-    rule: 'indent',
+    name: 'indent',
   },
   {
     id: 6,
-    rule: 'jsdoc-format',
+    name: 'jsdoc-format',
   },
   {
     id: 7,
-    rule: 'label-position',
+    name: 'label-position',
   },
   {
     id: 8,
-    rule: 'linebreak-style',
+    name: 'linebreak-style',
   },
   {
     id: 9,
-    rule: 'max-classes-per-file',
+    name: 'max-classes-per-file',
   },
   {
     id: 10,
-    rule: 'max-file-line-count',
+    name: 'max-file-line-count',
   },
   {
     id: 11,
-    rule: 'max-line-length',
+    name: 'max-line-length',
   },
   {
     id: 12,
-    rule: 'member-ordering',
+    name: 'member-ordering',
   },
   {
     id: 13,
-    rule: 'newline-before-return',
+    name: 'newline-before-return',
   }
 ]
