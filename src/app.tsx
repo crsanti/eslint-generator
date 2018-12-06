@@ -6,9 +6,9 @@ import * as styles from './appStyles';
 import { resetSyles } from './resetSyles';
 
 let App: React.StatelessComponent = () => (
-  <div className={`${styles.container} ${resetSyles}`}>
-    <SideBarComponent />
-    <MainComponent />
+  <div className={`${styles.container}`}>
+    <SideBarComponent className={styles.sidebarSize}/>
+    <MainComponent className={styles.mainSize}/>
   </div>
 );
 
