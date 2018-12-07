@@ -16,3 +16,7 @@ export const buttonContainer = css`
   justify-content: space-between;
   margin-bottom: 1.5rem;
 `;
+
+export const icon = css`
+  margin-right: 0.4rem;
+`;

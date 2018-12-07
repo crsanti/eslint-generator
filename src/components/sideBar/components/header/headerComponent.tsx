@@ -13,14 +13,20 @@ export const HeaderComponent: React.StatelessComponent = () => (
         variant="contained"
         size="medium"
       >
-        <CloudDownloadIcon />
+        <CloudDownloadIcon
+          className={styles.icon}
+          fontSize="small"
+        />
         Import
       </Button>
       <Button
         variant="contained"
         size="medium"
       >
-        <CloudDownloadIcon />
+        <CloudDownloadIcon
+          className={styles.icon}
+          fontSize="small"
+        />
         Save
       </Button>
     </div>
@@ -30,7 +36,7 @@ export const HeaderComponent: React.StatelessComponent = () => (
       InputProps={{
         startAdornment: (
           <InputAdornment position="end">
-            <SearchIcon />
+            <SearchIcon fontSize="small" />
           </InputAdornment>
         ),
       }}
