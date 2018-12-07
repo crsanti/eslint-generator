@@ -2,28 +2,38 @@ import * as React from 'react';
 import Button from '@material-ui/core/Button';
 import TextField from '@material-ui/core/TextField';
 import * as styles from './headerStyles';
+import SearchIcon from '@material-ui/icons/Search';
+import CloudDownloadIcon from '@material-ui/icons/CloudDownload';
+import InputAdornment from '@material-ui/core/InputAdornment';
 
 export const HeaderComponent: React.StatelessComponent = () => (
   <div className={styles.header}>
     <div className={styles.buttonContainer}>
       <Button
         variant="contained"
-        size="small"
+        size="medium"
       >
+        <CloudDownloadIcon />
         Import
       </Button>
       <Button
         variant="contained"
-        size="small"
+        size="medium"
       >
+        <CloudDownloadIcon />
         Save
       </Button>
     </div>
     <TextField
-      variant="filled"
       type="text"
       label="Filter rule"
-    >
-    </TextField>
+      InputProps={{
+        startAdornment: (
+          <InputAdornment position="end">
+            <SearchIcon />
+          </InputAdornment>
+        ),
+      }}
+    />
   </div>
 );

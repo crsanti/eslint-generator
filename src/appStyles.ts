@@ -6,9 +6,9 @@ export const container = css`
 `;
 
 export const sidebarSize = css`
-  width: 20%;
+  width: 30%;
 `;
 
 export const mainSize = css`
-  width: 80%
+  width: 70%
 `;
