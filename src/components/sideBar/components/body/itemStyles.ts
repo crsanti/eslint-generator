@@ -9,7 +9,7 @@ export const item = css`
   font-size: 0.8rem;
   font-family: none;
   line-height: 2.5;
-  :hover {
+  & :hover {
     color: ${colorItem};
     cursor: pointer;
   }
