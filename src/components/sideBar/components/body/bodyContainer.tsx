@@ -18,6 +18,6 @@ export class BodyContainer extends React.PureComponent<{}, State> {
       <ListComponent
         ruleList={this.state.ruleList}
       />
-    )
+    );
   }
 }
