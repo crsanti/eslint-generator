@@ -7,9 +7,9 @@ import CloudDownloadIcon from '@material-ui/icons/CloudDownload';
 import InputAdornment from '@material-ui/core/InputAdornment';
 
 interface Props {
-  onImport: (event: React.MouseEvent<HTMLInputElement>) => void;
-  onSave: (event: React.MouseEvent<HTMLInputElement>) => void;
-  onSearch: (event: React.ChangeEvent<HTMLTextAreaElement>) => void;
+  onImport(event: React.MouseEvent<HTMLInputElement>): void;
+  onSave(event: React.MouseEvent<HTMLInputElement>): void;
+  onSearch(event: React.ChangeEvent<HTMLTextAreaElement>): void;
 }
 
 export const HeaderComponent: React.StatelessComponent<Props> = (props) => (

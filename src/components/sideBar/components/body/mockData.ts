@@ -52,5 +52,5 @@ export const ruleList: Rules[] = [
   {
     id: 13,
     name: 'newline-before-return',
-  }
-]
+  },
+];

@@ -8,17 +8,14 @@ export class HeaderContainer extends React.PureComponent<{}, {}> {
 
   onImport = (event: React.MouseEvent<HTMLInputElement>) => {
     // TODO: Implement real method.
-    console.log(event.currentTarget.value);
   }
 
   onSave = (event: React.MouseEvent<HTMLInputElement>) => {
     // TODO: Implement real method.
-    console.log(event.currentTarget.value);
   }
 
   onSearch = (event: React.ChangeEvent<HTMLTextAreaElement>) => {
     // TODO: Implement real method.
-    console.log(event.currentTarget.value);
   }
 
   render() {
