@@ -1,6 +1,6 @@
 import { css } from 'emotion';
 
-export const header = css`
+export const commands = css`
   border-right-width: 1px;
   border-bottom-width: 1px;
   border-right-color: black;
@@ -11,7 +11,7 @@ export const header = css`
   padding-bottom: 0.8rem;
 `;
 
-export const buttonContainer = css`
+export const buttonsContainer = css`
   display: flex;
   justify-content: space-between;
   margin-bottom: 1.5rem;

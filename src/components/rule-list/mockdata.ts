@@ -1,0 +1,15 @@
+export const ruleList: string[] = [
+  'file-name-casing',
+  'forin',
+  'import-blacklist',
+  'import-spacing',
+  'indent',
+  'jsdoc-format',
+  'label-position',
+  'linebreak-style',
+  'max-classes-per-file',
+  'max-file-line-count',
+  'max-line-length',
+  'member-ordering',
+  'newline-before-return',
+];

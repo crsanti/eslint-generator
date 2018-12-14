@@ -5,10 +5,6 @@ export const container = css`
 	flex-direction: row;
 `;
 
-export const sidebarSize = css`
+export const sidebar = css`
   width: 30%;
-`;
-
-export const mainSize = css`
-  width: 70%
 `;
