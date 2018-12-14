@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { hot } from 'react-hot-loader';
-import { Sidebar } from './components/sidebar';
 import * as styles from './app.styles';
+import { Sidebar } from './components/sidebar';
 
 let App: React.StatelessComponent = () => (
   <div className={styles.container}>

@@ -1,4 +1,4 @@
-import { Paper, Input } from '@material-ui/core';
+import { Input, Paper } from '@material-ui/core';
 import SearchIcon from '@material-ui/icons/Search';
 import * as React from 'react';
 import * as styles from './searchbar.styles';
