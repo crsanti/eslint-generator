@@ -15,6 +15,9 @@
     }
   ],
   "dependencies": {
+    "@material-ui/core": "^3.6.1",
+    "@material-ui/icons": "^3.0.1",
+    "core-js": "^2.6.0",
     "emotion": "^9.2.12",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
@@ -31,6 +34,7 @@
     "@babel/preset-env": "^7.1.6",
     "@babel/preset-react": "^7.0.0",
     "@babel/preset-typescript": "^7.1.0",
+    "@types/material-ui": "^0.21.5",
     "@types/react": "^16.7.6",
     "@types/react-dom": "^16.0.9",
     "@types/webpack-env": "^1.13.6",
@@ -66,7 +70,8 @@
     "rule-generator",
     "rules",
     "tslint generator",
-    "tslint-generator"
+    "tslint-generator",
+    "@material-ui/core"
   ],
   "license": "MIT",
   "name": "tslint-generator",

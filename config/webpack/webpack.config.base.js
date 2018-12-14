@@ -8,7 +8,6 @@ module.exports = merge(common, {
   context: resolveFromRootPath('src'),
   entry: {
     app: [
-      '@babel/polyfill',
       './index.tsx',
     ],
   },
@@ -41,7 +40,7 @@ module.exports = merge(common, {
       tslint: resolveFromRootPath('tslint.json'),
       watch: resolveFromRootPath('src'),
       async: false,
-      workers: ForkTsCheckerWebpackPlugin.TWO_CPUS_FREE,
+      workers: ForkTsCheckerWebpackPlugin.TWO_CPUS,
     }),
   ],
   optimization: {
