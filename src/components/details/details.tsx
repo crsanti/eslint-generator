@@ -1,5 +1,6 @@
 import * as React from 'react';
+import { Title } from '../title';
 
 export const Details: React.StatelessComponent = () => (
-  <h1>Hello Main page</h1>
+  <Title />
 );
