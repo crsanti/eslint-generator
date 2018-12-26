@@ -1,6 +1,6 @@
 import { css } from 'emotion';
 
 export const main = css`
-  width: 100%;
+  width: 80%;
   padding-left: 2rem;
 `;

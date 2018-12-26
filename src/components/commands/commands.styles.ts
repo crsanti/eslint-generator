@@ -13,7 +13,7 @@ export const buttonsContainer = css`
 `;
 
 export const button = css`
-  background-color: ${grey[50]}
+  background-color: ${grey[50]};
 `;
 
 export const icon = css`

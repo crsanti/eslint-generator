@@ -3,7 +3,7 @@ import * as React from 'react';
 import * as styles from './types.styles';
 
 export const Types: React.StatelessComponent = () => (
-  <div>
+  <div className={styles.types}>
     <Fab variant="extended" className={styles.button}>
       Ts-only
     </Fab>
