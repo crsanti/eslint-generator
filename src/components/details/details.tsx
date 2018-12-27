@@ -4,9 +4,9 @@ import { Title } from '../title';
 import { Types } from '../types';
 
 export const Details: React.StatelessComponent = () => (
-  <>
+  <div>
     <Title />
     <Types />
     <Description />
-  </>
+  </div>
 );
