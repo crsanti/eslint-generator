@@ -3,6 +3,8 @@ import Tab from '@material-ui/core/Tab';
 import Tabs from '@material-ui/core/Tabs';
 import * as React from 'react';
 import * as styles from './configuration.styles';
+import { SettingsState } from '../settingsState';
+import { Severity } from '../severity';
 
 export const Configuration: React.StatelessComponent = () => (
   <div className={styles.configuration}>
@@ -10,33 +12,7 @@ export const Configuration: React.StatelessComponent = () => (
       <Tab label="Rule settings" />
       <Tab label="Global settings" />
     </Tabs>
-    <div className={styles.buttonsContainer}>
-      <Button variant="outlined">
-        unset
-      </Button>
-      <Button variant="outlined">
-        false
-      </Button>
-      <Button variant="outlined" color="primary">
-        true
-      </Button>
-    </div>
-    <div className={styles.severityButtons}>
-      <span className={styles.textSpan}>Severity</span>
-      <div>
-        <Button variant="outlined">
-          default
-        </Button>
-        <Button variant="outlined">
-          error
-        </Button>
-        <Button variant="outlined">
-          warning
-        </Button>
-        <Button variant="outlined">
-          none
-        </Button>
-      </div>
-    </div>
+    <SettingsState />
+    <Severity />
   </div>
 );
