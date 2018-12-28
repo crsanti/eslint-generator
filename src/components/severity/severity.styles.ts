@@ -1,4 +1,5 @@
 import { css } from 'emotion';
+import amber from '@material-ui/core/colors/amber';
 
 export const severity = css`
   display: flex;
@@ -7,5 +8,14 @@ export const severity = css`
 `;
 
 export const textSpan = css`
-  margin-bottom: 1.2rem;
+  font-weight: bold;
+`;
+
+export const buttonContainer = css`
+  margin-top: 1.2rem;
+`;
+
+export const warningButton = css`
+  border-color: ${amber[500]};
+  color: ${amber[500]};
 `;
