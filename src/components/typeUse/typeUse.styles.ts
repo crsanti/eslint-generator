@@ -20,12 +20,12 @@ export const button = css`
 `;
 
 export const buttonJavaScript = css`
-  background-color: ${orange[500]};
+  background-color: ${orange[500]}!important;
   color: ${blueGrey[600]};
-  font-weight: 600;
+  font-size: 0.8rem!important;
 
   &:hover {
-    background-color: ${orange[700]};
+    background-color: ${orange[700]}!important;
   }
 `;
 

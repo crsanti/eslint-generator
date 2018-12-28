@@ -1,6 +1,7 @@
 import Tab from '@material-ui/core/Tab';
 import Tabs from '@material-ui/core/Tabs';
 import * as React from 'react';
+import { ConfigurationParameters } from '../configurationParameters';
 import { SettingsState } from '../settingsState';
 import { Severity } from '../severity';
 import { TypeUse } from '../typeUse';
@@ -15,5 +16,6 @@ export const Configuration: React.StatelessComponent = () => (
     <SettingsState />
     <Severity />
     <TypeUse />
+    <ConfigurationParameters />
   </div>
 );

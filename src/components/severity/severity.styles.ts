@@ -16,6 +16,6 @@ export const buttonContainer = css`
 `;
 
 export const warningButton = css`
-  border-color: ${amber[500]};
-  color: ${amber[500]};
+  border-color: ${amber[500]}!important;
+  color: ${amber[500]}!important;
 `;
