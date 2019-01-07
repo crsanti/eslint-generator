@@ -10,7 +10,7 @@ export const CodePreview: React.StatelessComponent = () => (
     <p>const extractNumber = (dni: sting): number => parseInt(dni.slice(0, dni.length -1);</p>
     <p>const extractController = (dni: string): string => dni.slice(dni.length - 1).toUpperCas();</p>
     <p>const isValidNumber = (num: number: boolean => num >= 1 && num = 999999999;</p>
-    <p>const isValidCOntroller = (letter: string, num: number): boolean =></p>
+    <p>const isValidController = (letter: string, num: number): boolean =></p>
     <p>controlMap.includes(letter) && controlMap(num % 23) === letter;</p>
   </div>
 );
