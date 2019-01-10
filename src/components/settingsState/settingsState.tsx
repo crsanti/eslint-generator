@@ -12,6 +12,6 @@ export const SettingsState: React.StatelessComponent = () => (
       </Button>
     <Button variant="outlined" color="primary">
       true
-      </Button>
+    </Button>
   </div>
 );
