@@ -5,7 +5,7 @@
     "url": "https://github.com/crsanti"
   },
   "bugs": {
-    "url": "https://github.com/crsanti/tslint-generator/issues"
+    "url": "https://github.com/crsanti/eslint-generator/issues"
   },
   "contributors": [
     {
@@ -24,7 +24,7 @@
     "react-emotion": "^9.2.12",
     "react-hot-loader": "^4.3.12"
   },
-  "description": "An interactive tslint.json generator",
+  "description": "An interactive eslint.json generator",
   "devDependencies": {
     "@babel/core": "^7.1.6",
     "@babel/plugin-proposal-class-properties": "^7.1.0",
@@ -55,7 +55,7 @@
     "webpack-dev-server": "^3.1.10",
     "webpack-merge": "^4.1.4"
   },
-  "homepage": "https://github.com/crsanti/tslint-generator#readme",
+  "homepage": "https://github.com/crsanti/eslint-generator#readme",
   "keywords": [
     "tslint",
     "tslint-rules",
@@ -74,11 +74,11 @@
     "@material-ui/core"
   ],
   "license": "MIT",
-  "name": "tslint-generator",
+  "name": "eslint-generator",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/crsanti/tslint-generator.git"
+    "url": "git+https://github.com/crsanti/eslint-generator.git"
   },
   "scripts": {
     "build": "per-env",
