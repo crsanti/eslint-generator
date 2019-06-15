@@ -5,13 +5,13 @@ import { Searchbar } from '../search-bar';
 import * as styles from './commands.styles';
 
 export const Commands: React.StatelessComponent = () => (
-  <div className={styles.commands}>
+  <div className={styles.container}>
     <div className={styles.buttonsContainer}>
-      <Button variant="contained" size="medium">
+      <Button variant="contained" size="medium" className={styles.button}>
         <CloudDownload className={styles.icon} fontSize="small" />
         Import
       </Button>
-      <Button variant="contained" size="medium">
+      <Button variant="contained" size="medium" className={styles.button}>
         <CloudUpload className={styles.icon} fontSize="small" />
         Save
       </Button>

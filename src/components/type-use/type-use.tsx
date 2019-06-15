@@ -1,11 +1,11 @@
-import Fab from '@material-ui/core/Fab';
-import Check from '@material-ui/icons/Check';
+import { Fab, Typography } from '@material-ui/core';
+import { Check } from '@material-ui/icons';
 import * as React from 'react';
 import * as styles from './type-use.styles';
 
 export const TypeUse: React.FunctionComponent = () => (
   <div className={styles.typeUse}>
-    <span className={styles.textSpan}>Use in</span>
+    <Typography variant="h6" component="h2">Use in</Typography>
     <div className={styles.buttonContainer}>
       <Fab variant="extended" className={`${styles.button} ${styles.buttonJavaScript}`}>
         JavaScript

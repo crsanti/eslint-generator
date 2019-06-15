@@ -7,10 +7,6 @@ export const typeUse = css`
   margin-top: 1.5rem;
 `;
 
-export const textSpan = css`
-  font-weight: bold;
-`;
-
 export const buttonContainer = css`
   margin-top: 1.2rem;
 `;
