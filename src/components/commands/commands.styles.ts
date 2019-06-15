@@ -1,5 +1,5 @@
-import { css } from 'emotion';
-import grey from '@material-ui/core/colors/grey';
+import { css } from './node_modules/emotion';
+import grey from './node_modules/@material-ui/core/colors/grey';
 
 export const commands = css`
   border-bottom: 1px solid ${grey[300]};

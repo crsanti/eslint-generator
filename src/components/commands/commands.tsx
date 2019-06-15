@@ -1,7 +1,7 @@
-import Button from '@material-ui/core/Button';
-import { CloudDownload, CloudUpload } from '@material-ui/icons';
-import * as React from 'react';
-import { Searchbar } from '../searchbar';
+import Button from './node_modules/@material-ui/core/Button';
+import { CloudDownload, CloudUpload } from './node_modules/@material-ui/icons';
+import * as React from './node_modules/react';
+import { Searchbar } from '../search-bar';
 import * as styles from './commands.styles';
 
 export const Commands: React.StatelessComponent = () => (
