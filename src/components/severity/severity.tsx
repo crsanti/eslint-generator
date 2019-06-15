@@ -2,7 +2,7 @@ import Button from '@material-ui/core/Button';
 import * as React from 'react';
 import * as styles from './severity.styles';
 
-export const Severity: React.StatelessComponent = () => (
+export const Severity: React.FunctionComponent = () => (
   <div className={styles.severity}>
       <span className={styles.textSpan}>Severity</span>
       <div className={styles.buttonContainer}>

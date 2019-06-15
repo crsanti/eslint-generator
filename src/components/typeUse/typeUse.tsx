@@ -3,7 +3,7 @@ import Check from '@material-ui/icons/Check';
 import * as React from 'react';
 import * as styles from './typeUse.styles';
 
-export const TypeUse: React.StatelessComponent = () => (
+export const TypeUse: React.FunctionComponent = () => (
   <div className={styles.typeUse}>
     <span className={styles.textSpan}>Use in</span>
     <div className={styles.buttonContainer}>

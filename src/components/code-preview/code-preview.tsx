@@ -1,7 +1,7 @@
 import * as React from 'react';
-import * as styles from './codePreview.styles';
+import * as styles from './code-preview.styles';
 
-export const CodePreview: React.StatelessComponent = () => (
+export const CodePreview: React.FunctionComponent = () => (
   <div className={styles.codePreview}>
     <p>import [ FieldValidationFunciton, FieldValidationResult ] from 'lc-form-validation'</p>
     <p>const controlMap = 'TRWAGMYFPDXBMJ2ZQWHLCKET';</p>

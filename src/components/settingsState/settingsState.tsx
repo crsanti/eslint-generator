@@ -2,14 +2,14 @@ import Button from '@material-ui/core/Button';
 import * as React from 'react';
 import * as styles from './settingsState.styles';
 
-export const SettingsState: React.StatelessComponent = () => (
+export const SettingsState: React.FunctionComponent = () => (
   <div className={styles.settingsState}>
     <Button variant="outlined">
       unset
-      </Button>
+    </Button>
     <Button variant="outlined">
       false
-      </Button>
+    </Button>
     <Button variant="outlined" color="primary">
       true
     </Button>

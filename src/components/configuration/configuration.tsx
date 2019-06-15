@@ -7,7 +7,7 @@ import { Severity } from '../severity';
 import { TypeUse } from '../typeUse';
 import * as styles from './configuration.styles';
 
-export const Configuration: React.StatelessComponent = () => (
+export const Configuration: React.FunctionComponent = () => (
   <div className={styles.configuration}>
     <Tabs value={0} indicatorColor="primary">
       <Tab label="Rule settings" />
