@@ -1,6 +1,6 @@
 import Button from '@material-ui/core/Button';
 import * as React from 'react';
-import * as styles from './settingsState.styles';
+import * as styles from './settings-state.styles';
 
 export const SettingsState: React.FunctionComponent = () => (
   <div className={styles.settingsState}>

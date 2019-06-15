@@ -1,7 +1,7 @@
 import Fab from '@material-ui/core/Fab';
 import Check from '@material-ui/icons/Check';
 import * as React from 'react';
-import * as styles from './typeUse.styles';
+import * as styles from './type-use.styles';
 
 export const TypeUse: React.FunctionComponent = () => (
   <div className={styles.typeUse}>

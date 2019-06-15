@@ -2,9 +2,9 @@ import Tab from '@material-ui/core/Tab';
 import Tabs from '@material-ui/core/Tabs';
 import * as React from 'react';
 import { ConfigurationParameters } from '../configuration-parameters';
-import { SettingsState } from '../settingsState';
+import { SettingsState } from '../settings-state';
 import { Severity } from '../severity';
-import { TypeUse } from '../typeUse';
+import { TypeUse } from '../type-use';
 import * as styles from './configuration.styles';
 
 export const Configuration: React.FunctionComponent = () => (
