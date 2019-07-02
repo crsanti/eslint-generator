@@ -1,9 +1,9 @@
+import { MuiThemeProvider } from '@material-ui/core';
 import * as React from 'react';
 import { hot } from 'react-hot-loader';
 import * as styles from './app.styles';
-import { Sidebar } from './components/sidebar';
 import { Main } from './components/main';
-import { MuiThemeProvider } from '@material-ui/core';
+import { Sidebar } from './components/sidebar';
 import { theme } from './theme';
 
 let App: React.StatelessComponent = () => (
