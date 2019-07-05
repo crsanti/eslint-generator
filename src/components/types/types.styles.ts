@@ -6,5 +6,5 @@ export const types = css`
 `;
 
 export const button = css`
-  margin-right: 1rem !important;
+  margin-left: 1rem;
 `;
