@@ -1,14 +1,14 @@
-import Chips from '@material-ui/core/Chip';
+import Chip from '@material-ui/core/Chip';
 import * as React from 'react';
 import * as styles from './types.styles';
 
 export const Types: React.FunctionComponent = () => (
   <div className={styles.types}>
-    <Chips
+    <Chip
       label="TS-only"
       color="default"
     />
-    <Chips
+    <Chip
       label="Maintainability"
       color="default"
       classes={{
